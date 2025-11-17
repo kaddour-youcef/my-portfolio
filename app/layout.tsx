@@ -8,15 +8,32 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/contexts/language-context"
 import { ContentProvider } from "@/contexts/content-context"
 
+
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://youcefkaddour.com"),
   title: "AI Engineer Portfolio - Youcef KADDOUR",
   description:
     "AI/ML Engineer specializing in production-grade LLM & CV systems. View my projects, research, and experience.",
-  keywords: ["AI Engineer", "Software engineer", "AI", "Machine Learning", "LLM", "AI Agents", "Deep Learning", "Computer Vision", "NLP", "Portfolio"],
+  keywords: [
+    "AI Engineer", "Software engineer", "AI", "Machine Learning",
+    "LLM", "AI Agents", "Deep Learning", "Computer Vision", "NLP", "Portfolio"
+  ],
   authors: [{ name: "Youcef KADDOUR" }],
   creator: "Youcef KADDOUR",
   publisher: "Youcef KADDOUR",
   robots: "index, follow",
+
+  // ⭐ SVG ONLY — favicon & app icons
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/logo.svg",
+  },
+
+  // ⭐ SOCIAL PREVIEW with SVG
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -24,14 +41,23 @@ export const metadata: Metadata = {
     title: "AI Engineer Portfolio - Youcef KADDOUR",
     description: "AI/ML Engineer specializing in production-grade LLM & CV systems.",
     siteName: "Youcef KADDOUR - AI Engineer",
+    images: [
+      {
+        url: "/logo.svg",
+        alt: "Youcef KADDOUR - AI Engineer Portfolio",
+      },
+    ],
   },
+
   twitter: {
     card: "summary_large_image",
     title: "AI Engineer Portfolio - Youcef KADDOUR",
     description: "AI/ML Engineer specializing in production-grade LLM & CV systems.",
     creator: "@youcefkaddourpro",
+    images: ["/logo.svg"],
   },
-}
+};
+
 
 export default function RootLayout({
   children,
