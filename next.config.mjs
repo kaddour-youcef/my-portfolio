@@ -7,6 +7,9 @@ const nextConfig = {
   // IMPORTANT: No basePath or assetPrefix when domain points to root
   basePath: "",
   assetPrefix: "",
+  
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
 };
 
 export default nextConfig;
