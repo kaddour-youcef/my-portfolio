@@ -1,0 +1,1003 @@
+{
+  "personal": {
+    "name": "Youcef KADDOUR",
+    "title": "Lead AI Engineer / Tech Lead ",
+    "bio": "Spécialisé dans le développement et déploiement de systèmes LLM et Computer Vision, je crée des solutions performantes, stables et adaptées à des environnements industriels exigeants.",
+    "location": "Cannes, France",
+    "email": "youcef.kaddour.pro@gmail.com",
+    "links": {
+      "github": "https://github.com/kaddour-youcef",
+      "linkedin": "https://linkedin.com/in/youcef-kaddour-coo/",
+      "huggingface": "https://huggingface.co/corneille97",
+      "resume": "https://drive.google.com/uc?export=download&id=12evV-iuMgVfUA0LkxZkk7km7o_G33gDj"
+    },
+    "stats": {
+      "githubFollowers": 4,
+      "githubStars": 51
+    }
+  }, 
+  "studies": [
+      {
+        "institution": "Université Paris-Saclay",
+        "degree": "M.S. Génie Électrique",
+        "specialization": "Systèmes Mobiles Autonomes",
+        "dates": "2019-2021",
+        "gpa": "4.0",
+        "coursework": [
+          "Deep Learning",
+          "Computer Vision",
+          "Natural Language Processing",
+          "Reinforcement Learning",
+          "Statistical Learning Theory",
+          "Fusion de capteurs"
+        ]
+      },
+      {
+        "institution": "Institut d’Études Aéronautiques et Spatiales",
+        "degree": "M.S. Génie Aérospatial",
+        "specialization": "Télécommunication Aérospatiale",
+        "dates": "2018-2019",
+        "gpa": "3.8",
+        "coursework": [
+          "Méthodes d’optimisation",
+          "Cryptographie & Sécurité de l’Information",
+          "Digital Signal Processing",
+          "Probabilités & Statistiques Avancées",
+          "Analyse Mathématique"
+        ]
+      },
+      {
+        "institution": "Institut d’Études Aéronautiques et Spatiales",
+        "degree": "B.S. Génie Aérospatial",
+        "specialization": "Télécommunication Aérospatiale",
+        "dates": "2015-2018",
+        "gpa": "3.8",
+        "coursework": [
+          "Microcontrôleurs & Systèmes Embarqués",
+          "Électronique Haute Fréquence",
+          "Digital Signal Processing",
+          "Algèbre Linéaire & Mathématiques Appliquées",
+          "Théorie du Contrôle & Systèmes"
+        ]
+      }
+  ],
+  "certifications": [
+    {
+      "name": "AZ-305: Azure Solutions Architect Expert",
+      "issuer": "Udemy",
+      "date": "2025",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-a5e5117a-d4ae-42ff-aba4-205f18984fcb/"
+    },
+    {
+      "name": "AZ-900 Bootcamp: Microsoft Azure",
+      "issuer": "Udemy",
+      "date": "2025",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-908c5fbb-fb84-4fe1-93dd-1449379f5042/"
+    },
+    {
+      "name": "TOIC : 890",
+      "issuer": "TOIC",
+      "date": "2021",
+      "credentialUrl": "https://www.etsglobal.org/"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Expleo Group",
+      "role": "Consultant IA / Expert Technique",
+      "dates": "2021 - Présent",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Intervention en tant que consultant IA et expert technique dans les secteurs aéronautique, automobile, industriel et technologique.",
+        "Livraison de solutions IA/ML de bout en bout incluant data pipelines, développement de modèles et intégration système.",
+        "Animation d’ateliers de cadrage pour identifier des problématiques client, définir des stratégies de deploiment d'IA et cadré les propositions commerciales.",
+        "Production d’architectures de solutions et de documentation technique, améliorant les taux de réussite des propositions.",
+        "Pilotage d’initiatives de R&D, définition de roadmaps techniques et formation d’ingénieurs et de chercheurs.",
+        "Conseil sur les LLMs, la Generative AI, la computer vision et les bonnes pratiques ML sur différents projets clients."
+      ],
+      "technologies": [
+        "Python", "PyTorch", "Transformers", "FastAPI",
+        "Docker", "Kubernetes", "AWS", "MLflow"
+      ],
+      "domain": "Stratégie IA",
+      "client": "Expleo Group"
+    },
+    {
+      "company": "Expleo Group",
+      "role": "Tech Lead / Lead AI Engineer",
+      "dates": "Juillet 2024 – Octobre 2025",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Direction d’une équipe de 14 personnes pour le développement et deploiment d'un framework industriel d’agents IA autonomes pour des workflows de production et de maintenance.",
+        "Conception d’une architecture multi-agents modulaire (planification, contrôle, détection d’anomalies, explicabilité) utilisant du model-based RL et du rule-based reasoning.",
+        "Animation de formations internes sur l’IA, les LLMs et les architectures agentiques pour faire monter en compétences les équipes d’ingénierie.",
+        "Développement d’une stack MLOps complète (Docker, K8s, MLflow, GitHub Actions) permettant un retraining hebdomadaire et un déploiement sans interruption.",
+        "Établissement de standards d’ingénierie et de programmes de mentorat, augmentant les temps de développement de 25%."
+      ],
+      "technologies": [
+        "PyTorch", "LangChain", "Hugging Face",
+        "FastAPI", "Kubernetes", "Docker", "MLflow",
+        "GitHub Actions", "PostgreSQL", "Prometheus", "GCP"
+      ],
+      "domain": "Plateformes IA",
+      "client": "Expleo Group"
+    },
+    {
+      "company": "Expleo Group / Airbus Helicopters",
+      "role": "Tech Lead / Lead AI Engineer",
+      "dates": "Février 2023 - Juin 2024",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Pilotage et développement d’un système Text-to-SQL atteignant 91% d’EM accuracy pour Airbus Helicopters.",
+        "Création d’un framework de fine-tuning et d’inférence LLM low-GPU (LoRA, Triton, CUDA) réduisant l’usage GPU de 60%.",
+        "Définition de métriques d’évaluation multi-critères et construction du pipeline d’évaluation complet.",
+        "Standardisation des pratiques d’optimisation LLM, de la documentation et du transfert de connaissances inter-équipes."
+      ],
+      "technologies": [
+        "PyTorch", "Hugging Face", "Transformers",
+        "FastAPI", "OpenAI", "MySQL"
+      ],
+      "domain": "NLP",
+      "client": "Airbus Helicopters"
+    },
+    {
+      "company": "Expleo Group / Stellantis",
+      "role": "AI Engineer",
+      "dates": "2023 - Janvier 2025",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Développement d’un système d’inspection visuelle automatisée (production auto-mobiles), déployé dans plusieurs usines international.",
+        "Création d’une application de labellisation et de gestion d’images/données pour accélérer l’entraînement des modèles.",
+        "Optimisation du code et des mécanismes de caching, réduisant les temps de traitement de 70%.",
+        "Implémentation de fonctionnalités avancées pour répondre aux besoins croissants d’inspection."
+      ],
+      "technologies": [
+        "Python", "OpenCV", "FastAPI", "PyTorch",
+        "Docker", "PostgreSQL"
+      ],
+      "domain": "Computer Vision",
+      "client": "Stellantis"
+    },
+    {
+      "company": "Expleo Group / Stellantis",
+      "role": "Tech Lead",
+      "dates": "Février 2023 - Juin 2024",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Direction des premières phases de développement d’un chatbot multilingue basé sur RAG pour la formation d'inspecteurs de qualité.",
+        "Accompagnement technique, décisions d’architecture et résolution de problèmes tout au long du projet."
+      ],
+      "technologies": [
+        "Hugging Face", "Transformers", "RAG", "FastAPI"
+      ],
+      "domain": "NLP",
+      "client": "Stellantis"
+    },
+    {
+      "company": "Expleo Group / Airbus Helicopters",
+      "role": "AI Engineer",
+      "dates": "2023",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Benchmark de LLMs de 800M à 70B de paramètres en zero-shot et few-shot pour des tâches Text-to-SQL afin d’identifier les modèles optimaux.",
+        "Développement d’APIs d’inférence et d’outils CLI pour la génération, le filtrage et le labellisation de données synthétiques.",
+        "Amélioration de 27% de la précision Text-to-SQL grâce à l’optimisation des workflows de fine-tuning."
+      ],
+      "technologies": [
+        "Python", "PyTorch", "SQL", "MySQL", "Transformers", "OpenAI", "FastAPI"
+      ],
+      "domain": "NLP",
+      "client": "Airbus Helicopters"
+    },
+    {
+      "company": "Expleo Group / Airbus Helicopters",
+      "role": "Data Consultant",
+      "dates": "2023",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Pilotage de la migration des données, outils et APIs de Microsoft Cloud vers Google Cloud avec un zero interruption.",
+        "Réalisation d’audits et recommandations pour l’adoption et l’optimisation Cloud.",
+        "Refactoring des APIs et workflows pour exploiter pleinement l’environnement GCP."
+      ],
+      "technologies": [
+        "GCP", "Azure"
+      ],
+      "domain": "Data Engineering",
+      "client": "Airbus Helicopters"
+    },
+    {
+      "company": "Expleo Group / Automotive Cells Company",
+      "role": "Data Scientist",
+      "dates": "2022",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Optimisation des workflows R&D et production de batteries EV via de la modélisation prédictive et de l’analyse de données.",
+        "Conception de pipelines de données de bout en bout et de workflows de feature engineering.",
+        "Développement de modèles ML réduisant les temps de production de 35%.",
+        "Création de dashboards pour la formation automatique et l’aide à la décision en temps réel."
+      ],
+      "technologies": [
+        "Python", "Streamlit", "Pandas", "Scikit-learn", "SQL"
+      ],
+      "domain": "Data Science",
+      "client": "Automotive Cells Company"
+    },
+    {
+      "company": "Expleo Group / Airbus",
+      "role": "Data Scientist",
+      "dates": "2023",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Conception de surgoate models pour simuler l’ingestion d’air dans les moteurs d’avion en combinant modèles empiriques et physiques.",
+        "Analyse statistique et clustering pour identifier des patterns tout en préservant l’interprétabilité physique."
+      ],
+      "technologies": [
+        "Python", "NumPy", "SciPy", "Scikit-learn"
+      ],
+      "domain": "Data Science",
+      "client": "Airbus"
+    },
+    {
+      "company": "Expleo Group / Vapérail",
+      "role": "Data Scientist",
+      "dates": "2023",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Traitement et visualisation de données profilométriques 3D sous forme de nuages de points pour la détection d’usure et de corrosion.",
+        "Développement d’un algorithme de réorientation et reconstruction de nuages de points 3D pour améliorer la détection de défauts."
+      ],
+      "technologies": [
+        "Python", "Open3D", "NumPy"
+      ],
+      "domain": "Computer Vision",
+      "client": "Vapérail"
+    },
+    {
+      "company": "Expleo Group / Stellantis",
+      "role": "Data Scientist",
+      "dates": "2021 - 2022",
+      "location": "Paris, France",
+      "type": "full-time",
+      "description": [
+        "Analyse des données de batteries EV et de charge pour identifier les causes de dégradation.",
+        "Création de KPIs et features pour améliorer la surveillance de l’état de santé des batteries.",
+        "Développement de modèles prédictifs pour la dégradation de l’isolation, permettant une maintenance proactive."
+      ],
+      "technologies": [
+        "Python", "Pandas", "Scikit-learn", "SQL", "Apache Spark"
+      ],
+      "domain": "Data Science",
+      "client": "Stellantis"
+    }
+  ],
+
+  "skills": {
+    "aiml": {
+      "category": "AI/ML",
+      "skills": [
+        { "name": "PyTorch", "level": "expert" },
+        { "name": "Transformers", "level": "expert" },
+        { "name": "LangChain", "level": "advanced" },
+        { "name": "TensorFlow", "level": "advanced" },
+        { "name": "scikit-learn", "level": "expert" },
+        { "name": "Keras,", "level": "advanced" },
+        { "name": "RAG", "level": "advanced" },
+        { "name": "OpenCV", "level": "intermediate" }
+       
+      ]
+    },
+    "data": {
+      "category": "Data & Frontend",
+      "skills": [
+        { "name": "Data Analysis", "level": "expert" },
+        { "name": "NumPy", "level": "expert" },
+        { "name": "Pandas", "level": "expert" },
+        { "name": "Spark", "level": "advanced" },
+        { "name": "SQL", "level": "advanced" },
+        { "name": "Data Pipelines", "level": "advanced" },
+        { "name": "Streamlit", "level": "expert" },
+        { "name": "Nextjs", "level": "advanced" }
+
+      ]
+    },
+    "coding": {
+      "category": "Coding",
+      "skills": [
+        { "name": "Python", "level": "expert" },
+        { "name": "Javascript", "level": "advanced" },
+        { "name": "C++", "level": "advanced" },
+        { "name": "C", "level": "intermediate" },
+        { "name": "CUDA", "level": "intermediate" },
+        { "name": "triton", "level": "advanced" } ,
+        { "name": "Java", "level": "intermediate" },
+        { "name": "go", "level": "intermediate" }
+      ]
+    },
+    "mlops": {
+      "category": "MLOps",
+      "skills": [
+        { "name": "Docker", "level": "expert" },
+        { "name": "Kubernetes", "level": "advanced" },
+        { "name": "MLflow", "level": "advanced" },
+        { "name": "CI/CD", "level": "intermediate" },
+        { "name": "Monitoring (Prometheus)", "level": "intermediate" }
+
+      ]
+    },
+    "backend": {
+      "category": "Backend",
+      "skills": [
+        { "name": "FastAPI", "level": "expert" },
+        { "name": "Flask", "level": "advanced" },
+        { "name": "gRPC", "level": "intermediate" },
+        { "name": "REST", "level": "expert" },
+        { "name": "GraphQL", "level": "intermediate" },
+        { "name": "Protocol Buffers", "level": "intermediate" }
+
+      ]
+    },
+    "cloud": {
+      "category": "Cloud",
+      "skills": [
+        { "name": "Azure", "level": "advanced" },
+        { "name": "AWS", "level": "intermediate" },
+        { "name": "GCP", "level": "advanced" }
+      ]
+    }
+    
+  }, 
+  "projects": [
+      {
+        "id": "odock",
+        "title": "Odock : Plateforme API IA Unifiée",
+        "description": "Une plateforme d’accès IA multi-tenant avec gouvernance, budgétisation, observabilité et gestion sécurisée des clés API.",
+        "longDescription": "Une plateforme full-stack multi-tenant qui centralise l’accès aux modèles IA pour les organisations, équipes et utilisateurs. Construite avec un backend Go et un frontend Next.js, elle fournit des politiques de gouvernance unifiées, un contrôle granulaire des clés API, un audit complet, un suivi d’usage et une application automatisée des budgets/quotas. Le schéma basé sur Prisma alimente un modèle de données flexible de niveau entreprise, supportant la conformité, le contrôle des coûts et l’autorisation d’accès aux modèles. La plateforme permet une exploitation sécurisée des workloads IA en combinant authentification, gestion des modèles, journalisation des requêtes, alerting et gouvernance multi-niveaux dans une couche API orientée observabilité.",
+        "technologies": [
+          "Go",
+          "Next.js 15",
+          "TypeScript",
+          "Prisma",
+          "PostgreSQL",
+          "Docker",
+          "gRPC / REST",
+          "OpenAI",
+          "OAuth / NextAuth",
+          "Kubernetes"
+        ],
+        "tags": [
+          "Enterprise AI",
+          "API Platform",
+          "Multi-Tenancy",
+          "Governance",
+          "Observability",
+          "Billing"
+        ],
+        "modality": "Infrastructure IA",
+        "purpose": "production",
+        "status": "development",
+        "stats": {
+          "stars": 1,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/keyman-server"
+        },
+        "architecture": "Backend Go implémentant le routage IA multi-tenant, l’application des politiques de gouvernance et la télémétrie d’usage. Frontend Next.js App Router avec Prisma ORM pour les tableaux de bord d’administration. PostgreSQL stocke les hiérarchies d’organisation, clés API, budgets, quotas, logs d’audit et catalogues de modèles. Support des webhooks d’alerte, du rate-limiting et des politiques de rétention chiffrées.",
+        "results": [
+          "Conception d’un schéma multi-tenant complet pour organisations, équipes, utilisateurs, gouvernance, budgets, quotas et logs d’audit",
+          "Implémentation d’une émission sécurisée de clés API avec scopes, allowlists IP, rate limits, empreintes mTLS et signature HMAC",
+          "Ajout de contrôles de gouvernance complets incluant gestion PII, règles de résidence, allowlists d’accès aux modèles et politiques de rétention",
+          "Mise en place d’un metering temps réel avec calcul des coûts, comptage de tokens, suivi de latence et reporting des cache-hits",
+          "Intégration de moteurs de budget et quota avec alertes automatiques via email, Slack et webhooks",
+          "Création d’une webapp d’administration Next.js permettant l’inspection des logs, la rotation des clés, la gestion des budgets et la visualisation de l’activité organisationnelle"
+        ],
+        "improvements": [
+          "Ajouter des dashboards analytiques en streaming pour les patterns de requêtes et la détection d’anomalies",
+          "Implémenter une logique de quotas par endpoint avec fenêtres glissantes",
+          "Ajouter le support pour des providers de modèles personnalisés et des connecteurs externes",
+          "Introduire du failover multi-régions et une rotation de clés sans interruption",
+          "Ajouter des buckets chiffrés pour les archives de prompts et embeddings privés"
+        ],
+        "private": true
+      },
+      {
+        "id": "turbo-efficient-llm-finetuning",
+        "title": "Turbo : Fine-Tuning LLM Efficace",
+        "description": "Une bibliothèque Python pour le fine-tuning LLM efficient avec optimisation GPU adaptative, chargement 4-bit et améliorations LoRA.",
+        "longDescription": "Turbo est une bibliothèque Python haute performance conçue pour fine-tuner les large language models (LLMs) avec une efficacité exceptionnelle. Elle s’adapte dynamiquement aux architectures GPU en sélectionnant la configuration optimale à l’installation et optimise l’exécution des kernels pour accélérer l’entraînement. Avec quantification 4-bits, fine-tuning LoRA et intégration poussée avec les outils Hugging Face, Turbo réduit l’usage mémoire GPU jusqu’à 60% et le temps d’entraînement de 30%. Elle fournit des utilitaires intuitifs pour la préparation de datasets, le chargement de modèles, la surveillance GPU et la gestion complète des workflows via SFTTrainer.",
+        "technologies": [
+          "Python",
+          "PyTorch",
+          "CUDA",
+          "Transformers",
+          "TRL",
+          "PEFT",
+          "LoRA",
+          "4-bit Quantization",
+          "Hugging Face Datasets"
+        ],
+        "tags": [
+          "LLM Fine-Tuning",
+          "Optimization",
+          "GPU Efficiency",
+          "Machine Learning",
+          "Quantization",
+          "LoRA"
+        ],
+        "modality": "GPU Computing",
+        "purpose": "research",
+        "status": "development",
+        "stats": {
+          "stars": 1,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/turbo"
+        },
+        "architecture": "Bibliothèque Python GPU-aware avec installation adaptative, chargement de modèles quantifiés 4-bits, optimisation PEFT/LoRA et pipeline d’entraînement SFTTrainer intégré. Entièrement interopérable avec Hugging Face Transformers et Datasets.",
+        "results": [
+          "Réduction jusqu’à 60% de la mémoire GPU grâce au chargement 4-bits",
+          "Entraînement 30% plus rapide via kernels optimisés et LoRA",
+          "Installation adaptative sélectionnant automatiquement la meilleure configuration selon l’architecture GPU",
+          "Intégration fluide avec SFTTrainer pour un fine-tuning simplifié",
+          "Surveillance en temps réel de la mémoire GPU pour profiling et analyse"
+        ],
+        "improvements": [
+          "Ajouter le support FlashAttention v2",
+          "Introduire des options de quantification INT8/FP8",
+          "Implémenter l’entraînement multi-GPU (DDP) et les optimisations ZeRO",
+          "Ajouter des outils intégrés pour le nettoyage et l’augmentation de datasets",
+          "Étendre le support aux backends non-CUDA (Metal, ROCm)"
+        ],
+        "private": false
+      },
+      {
+        "id": "xlr",
+        "title": "XLR : Serveur d’Inférence",
+        "description": "Inférence Transformer haute performance utilisant Python gRPC avec backend C++/CUDA.",
+        "longDescription": "Système d’inférence Transformer orienté production combinant un service gRPC Python avec un backend performant C++/CUDA. Python gère le chargement des données, la tokenisation, le batching et le réseau, tandis que C++/CUDA exécute les kernels GPU optimisés pour les passes forward des Transformers (attention, feed-forward, layer norm, etc.). Une couche pybind11 expose directement le modèle C++ à Python pour une intégration fluide. Le système supporte l’exécution GPU quand disponible et bascule automatiquement sur CPU en fallback.",
+        "technologies": [
+          "Python",
+          "C++",
+          "CUDA",
+          "gRPC",
+          "Protocol Buffers",
+          "pybind11",
+          "CMake"
+        ],
+        "tags": ["Transformer", "Inference", "gRPC", "CUDA", "AI Systems", "Edge/Server Inference"],
+        "modality": "GPU Computing",
+        "purpose": "production",
+        "status": "development",
+        "stats": {
+          "stars": 1,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/xlr"
+        },
+        "architecture": "Frontend gRPC Python avec pont pybind11 vers un moteur d'inférence Transformer C++/CUDA incluant précision mixte optionnelle, kernels CUDA custom et fallback CPU automatique.",
+        "results": [
+          "API Python unifiée avec backend C++/CUDA haute performance",
+          "Détection automatique GPU avec fallback CPU",
+          "Pipeline d’inférence complet : tokenisation → kernels GPU → post-processing",
+          "Support du batching et des requêtes gRPC simultanées"
+        ],
+        "improvements": [
+          "Ajouter FlashAttention ou intégration CUTLASS",
+          "Implémenter l’inférence multi-GPU via NCCL",
+          "Ajouter la quantification (INT8/FP8)",
+          "Optimiser la fusion de kernels pour réduire la latence"
+        ],
+        "private": true
+      },
+      {
+        "id": "medsim-medical-training-simulator",
+        "title": "MedSim - Simulateur Médical",
+        "description": "Simulateur d’entraînement médical full-stack alimenté par IA pour étudiants et professeurs.",
+        "longDescription": "MedSim est une application web full-stack conçue pour former les étudiants en médecine via des simulations de patients alimentées par IA et adaptées au contexte. Les professeurs peuvent créer des scénarios médicaux, définir des personnalités/conditions patient et consulter des analyses détaillées des performances. Les étudiants interagissent avec des patients simulés via des conversations IA en temps réel, reçoivent un feedback structuré et suivent leur progression. La plateforme utilise Next.js 15, PostgreSQL et les modèles OpenAI pour offrir une expérience d’apprentissage réaliste et adaptative.",
+        "technologies": [
+          "Next.js 15",
+          "TypeScript",
+          "React",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "PostgreSQL",
+          "Prisma ORM",
+          "Auth.js",
+          "Google OAuth",
+          "Vercel AI SDK",
+          "OpenAI"
+        ],
+        "tags": [
+          "Medical Education",
+          "AI Simulation",
+          "Full-Stack",
+          "Training",
+          "EdTech"
+        ],
+        "modality": "Conversational AI",
+        "purpose": "education",
+        "status": "development",
+        "stats": {
+          "stars": 1,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/med-bot"
+        },
+        "architecture": "Application full-stack Next.js 15 avec App Router, Auth.js, base PostgreSQL via Prisma, Vercel AI SDK pour la simulation patient GPT et endpoints API modulaires pour logique de chat et d’évaluation.",
+        "results": [
+          "Simulations patient IA en temps réel avec comportement contextuel",
+          "Dashboards différenciés pour professeurs et étudiants",
+          "Évaluations automatiques des performances basées sur OpenAI",
+          "Suivi complet de progression et analytics",
+          "Déploiement scalable sur Vercel"
+        ],
+        "improvements": [
+          "Ajouter le support multilingue",
+          "Introduire des niveaux de difficulté et cas adaptatifs",
+          "Intégrer des symptômes multimodaux (voix, images, constantes)",
+          "Implémenter un mode classe collaboratif",
+          "Ajouter des analytics avancées avec tendances longitudinales"
+        ],
+        "private": false
+      },
+      {
+        "id": "flowchat",
+        "title": "FlowChat : Chatbot avec Mindmap & Workspace",
+        "description": "Chatbot avancé type ChatGPT avec vues duales et mindmap interactive pour explorer les flux de conversation.",
+        "longDescription": "FlowChat est un assistant IA basé sur Next.js offrant une expérience de chat type ChatGPT avec un puissant système de double vue. Les conversations peuvent être visualisées comme un chat classique ou comme une mindmap interactive où chaque message devient un nœud. Le système prend en charge des blocs personnalisés — images, code, markdown, fichiers — rendant les échanges plus expressifs. Les utilisateurs peuvent interagir avec chaque nœud via des outils IA : résumé, traduction, clonage, réécriture, branches alternatives. La plateforme inclut gestion persistante des conversations, mises à jour temps réel et architecture flexible pour étendre les opérations au niveau des nœuds.",
+        "technologies": [
+          "Next.js 14",
+          "TypeScript",
+          "React",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "Vercel AI SDK",
+          "OpenAI",
+          "Node.js",
+          "PostgreSQL",
+          "WebSockets",
+          "D3.js or React Flow (for mindmap)"
+        ],
+        "tags": ["Chatbot", "OpenAI-API", "Flow Visualization", "LLM", "Next.js", "reactflow", "Zustand"],
+        "modality": "Conversational AI",
+        "purpose": "experimental",
+        "status": "development",
+        "stats": {
+          "stars": 1,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/flow-chat"
+        },
+        "architecture": "Next.js 14 avec App Router, Vercel AI SDK pour interactions LLM, système de blocs modulaires (texte, images, code, markdown), synchronisation temps réel via WebSockets, moteur mindmap basé graph, PostgreSQL pour stockage des conversations.",
+        "results": [
+          "Interface de chat type ChatGPT avec streaming et support texte, images, code, markdown et fichiers",
+          "Moteur mindmap entièrement interactif transformant les conversations en flux expansibles",
+          "Ajout d’outils IA par nœud : résumé, traduction, clonage, réécriture, branches alternatives",
+          "Rendu des blocs personnalisé avec bascule fluide entre mode chat et mindmap",
+          "Synchronisation temps réel permettant consultation/édition multi-appareils"
+        ],
+        "improvements": [
+          "Ajouter édition collaborative multi-utilisateurs avec indicateurs de présence",
+          "Supporter des blocs additionnels (audio, diagrammes, aperçus PDF)",
+          "Introduire la recherche sémantique dans les nœuds et blocs",
+          "Activer export/import en JSON, Markdown, formats Mindmap ou bundle complet",
+          "Intégrer versioning des nœuds avec diff visuel"
+        ],
+        "private": true
+      },
+      {
+        "id": "llm-rag-system",
+        "title": "Alii : Système RAG",
+        "description": "Système RAG production-ready pour Q&A documentaire",
+        "longDescription": "Développement d’un système Retrieval-Augmented Generation scalable pour traiter des documents d’entreprise et fournir des réponses précises. Le système gère plusieurs formats de documents, utilise une recherche sémantique avec bases vectorielles et intègre des techniques avancées de prompt engineering pour réduire les hallucinations.",
+        "technologies": ["Python", "FastAPI", "LangChain", "Pinecone", "OpenAI", "Docker", "Kubernetes"],
+        "tags": ["NLP", "RAG", "Production", "Scalability"],
+        "modality": "NLP",
+        "purpose": "production",
+        "status": "production",
+        "stats": {
+          "stars": 1,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/alii"
+        },
+        "architecture": "FastAPI + LangChain + Pinecone + GPT-4",
+        "results": [
+          "Amélioration de ~20% de la pertinence des réponses par rapport à un baseline GPT naïf",
+          "Réduction d’environ 25% des hallucinations évidentes",
+          "Gestion de plusieurs milliers de requêtes/jour avec p95 < 800 ms",
+          "Support de dizaines de milliers de documents indexés (PDF, DOCX, texte)",
+          "Fiabilité en production avec monitoring et alerting basiques"
+        ],
+        "improvements": [
+          "Implémenter des modèles d'embeddings fine-tuned",
+          "Ajouter le support multimodal",
+          "Optimiser la recherche avec hybrid search"
+        ],
+        "private": true
+      },
+      {
+        "id": "weather-station",
+        "title": "Station Météo",
+        "description": "Station météo utilisant ESP32-S3, écran tactile 4\" RGB (ST7701 + GT911) et capteur BME280, avec UI LVGL et Wi-Fi intégré.",
+        "longDescription": "Projet IoT edge utilisant l’ESP32-S3 et un écran tactile RGB 4\" (ST7701 + GT911) pour collecter, visualiser, enregistrer et servir des données environnementales issues d’un capteur BME280. L’appareil enregistre température, humidité et pression chaque minute, stocke les données sur carte SD, les affiche via une UI LVGL et expose une interface web Wi-Fi en modes STA et AP.",
+        "technologies": ["C", "LVGL", "ESP32", "I2C", "SPI", "Wi-Fi"],
+        "tags": ["IoT", "Embedded", "Real-time", "Weather"],
+        "modality": "Embedded",
+        "purpose": "production",
+        "status": "production",
+        "stats": {
+          "stars": 1,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/weather-station"
+        },
+        "architecture": "Firmware ESP32-S3 avec UI LVGL, intégration BME280, sous-système de logging SD et serveur web Wi-Fi dual-mode (STA/AP).",
+        "results": [
+          "Logging environnemental stable à 1 minute",
+          "Rendu UI temps réel fluide via LVGL",
+          "Interface web Wi-Fi fiable pour données live et historiques",
+          "Fonctionnement basse consommation adapté à l’edge continu"
+        ],
+        "improvements": [
+          "Ajouter support MQTT pour intégration cloud",
+          "Activer mises à jour OTA",
+          "Ajouter capteurs additionnels (CO2, VOC, lumière)",
+          "Implémenter export de données (CSV/JSON)"
+        ],
+        "private": false
+      },
+      {
+        "id": "auto-ar-drone",
+        "title": "Auto-AR-Drone : Atterrissage Autonome sur Plateforme Mobile",
+        "description": "Système d’atterrissage autonome pour un Parrot AR Drone 2.0 sur une plateforme TurtleBot mobile via suivi visuel, fusion IMU, filtrage Kalman et contrôle PID.",
+        "longDescription": "Auto-AR-Drone permet à un Parrot AR Drone 2.0 d’atterrir de manière autonome sur une plateforme TurtleBot 2.0 en mouvement. Un Raspberry Pi 3B+ avec caméra réalise le suivi visuel pour détecter la plateforme et estimer sa pose, tandis que l’IMU du drone fournit l’estimation d’état du drone. Les deux estimations sont fusionnées via un filtre de Kalman pour une pose relative plus stable. Un contrôleur PID génère une trajectoire temps réel et les commandes de vitesse, permettant au drone de suivre la plateforme et d’effectuer un atterrissage autonome sécurisé.",
+        "technologies": [
+          "Python",
+          "C++",
+          "OpenCV",
+          "Kalman Filter",
+          "PID Control",
+          "ROS",
+          "Raspberry Pi 3B+"
+        ],
+        "tags": [
+          "Robotics",
+          "Drones",
+          "Computer Vision",
+          "Control Systems",
+          "Autonomous Landing"
+        ],
+        "modality": "Robotics / CV",
+        "purpose": "research",
+        "status": "prototype",
+        "stats": {
+          "stars": 2,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/auto-ar-drone"
+        },
+        "architecture": "Drone Parrot AR 2.0 avec Raspberry Pi 3B+ et caméra pour suivi visuel, communication ROS avec TurtleBot mobile, estimation visuelle de pose + IMU fusionnée via filtre Kalman, contrôleur PID générant commandes de vitesse pour atterrissage autonome.",
+        "results": [
+          "Suivi visuel temps réel de la plateforme TurtleBot en mouvement",
+          "Fusion pose visuelle + IMU via filtre de Kalman pour estimation plus stable",
+          "Contrôleur PID stabilisant le drone au-dessus de la plateforme en conditions indoor",
+          "Atterrissages autonomes réguliers sur plateforme en mouvement lent en laboratoire"
+        ],
+        "improvements": [
+          "Améliorer la robustesse face aux variations de lumière et occultations partielles",
+          "Optimiser contrôleurs et filtres pour vitesses plus élevées",
+          "Ajouter couches de sécurité (altitude fail-safe, logique d’abandon)",
+          "Étendre à planification 3D avec évitement d’obstacles"
+        ],
+        "private": false
+      },
+      {
+        "id": "ai-ml-portfolio",
+        "title": "Portfolio Ingénieur AI/ML",
+        "description": "Portfolio moderne inspiré GitHub pour ingénieur AI/ML, construit avec Next.js, TypeScript et Tailwind CSS.",
+        "longDescription": "Portfolio réactif conçu pour ingénieurs AI/ML, avec thème sombre inspiré GitHub, titres monospace et composants interactifs. Le système utilise une configuration JSON structurée pour gérer projets, compétences, publications et model cards. Construit avec Next.js (App Router), TypeScript, Tailwind CSS et composants shadcn/ui, il offre performance, design propre et métadonnées SEO-ready. L’architecture met l’accent sur la modularité, la réutilisation du contenu et la personnalisation développeur-friendly.",
+        "technologies": [
+          "Next.js 15",
+          "TypeScript",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "React",
+          "Vercel",
+          "JSON-based CMS"
+        ],
+        "tags": [
+          "Frontend",
+          "Portfolio",
+          "Next.js",
+          "TailwindCSS",
+          "Developer Tools"
+        ],
+        "modality": "Web",
+        "purpose": "personal",
+        "status": "production",
+        "stats": {
+          "stars": 1,
+          "forks": 0
+        },
+        "links": {
+          "github": "https://github.com/kaddour-youcef/ai-ml-portfolio",
+          "demo": "#"
+        },
+        "architecture": "Next.js App Router avec layout modulaire, Tailwind CSS pour le style, shadcn/ui pour composants réutilisables, et contenu JSON centralisé. Déployé sur Vercel avec SEO optimisé.",
+        "results": [
+          "Portfolio full responsive avec thème sombre inspiré GitHub",
+          "Sections modulaires : hero, compétences, projets, modèles, publications, timeline d’expérience",
+          "Widgets interactifs (hero type terminal, cartes projet extensibles)",
+          "Configuration JSON centralisée pour gérer tout le contenu sans modifier le code",
+          "Bonnes pratiques d’accessibilité et structure HTML sémantique pour performance et SEO",
+          "Chargement via Next.js Image, imports dynamiques et gestion efficace des polices",
+          "Support de theming avec mode clair/sombre automatique",
+          "Support multilingue via configuration i18n"
+        ],
+        "improvements": [
+          "Ajouter un système de blog via MDX ou CMS headless",
+          "Implémenter des dashboards analytics pour mesurer l’engagement",
+          "Créer un éditeur UI drag-and-drop pour gérer le contenu du portfolio"
+        ],
+        "private": false
+      }
+    
+  ],
+  "models": [
+    {
+      "id": "llama3-8b-4bit",
+      "name": "Llama-3-8B-4bit",
+      "task": "LLM quantifié pour inférence rapide",
+      "architecture": "Llama 3 (8B paramètres) quantifié en 4 bits avec BitsAndBytes",
+      "datasets": ["Données d’entraînement Llama 3 originales"],
+      "training": {
+        "epochs": null,
+        "batchSize": null,
+        "learningRate": null,
+        "hardware": "Quantification effectuée sur 1x NVIDIA A100 40GB",
+        "duration": "2 heures"
+      },
+      "metrics": {
+        "Perplexity-Change": "+4.5%",
+        "Latency-Reduction": "≈55%",
+        "Memory-Usage": "≈4.65GB"
+      },
+      "limitations": [
+        "La quantification réduit la précision dans le raisonnement long-contexte",
+        "Non adapté aux tâches à haut risque nécessitant des sorties exactes",
+        "Dépend de la compatibilité BitsAndBytes avec le hardware"
+      ],
+      "ethical": [
+        "Respecter la licence Meta pour tout usage commercial ou dérivé",
+        "Ne doit pas être utilisé pour générer du contenu nuisible ou non autorisé",
+        "Les utilisateurs doivent vérifier que les sorties quantifiées restent sûres et fiables"
+      ],
+      "license": "Licence Meta",
+      "links": {
+        "huggingface": "https://huggingface.co/corneille97/Llama-3-8B-4bits-turbo",
+        "paper": "https://arxiv.org/abs/2307.09288"
+      }
+    },
+    {
+      "id": "llama2-4bit",
+      "name": "Llama-2-4bit",
+      "task": "LLM quantifié pour inférence basse-ressource",
+      "architecture": "Llama 2 (variante 7B/13B) quantifié en 4 bits avec BitsAndBytes",
+      "datasets": ["Données d’entraînement originales "],
+      "training": {
+        "epochs": null,
+        "batchSize": null,
+        "learningRate": null,
+        "hardware": "Quantification effectuée sur 1x NVIDIA A100 40GB",
+        "duration": "1h 46min"
+      },
+      "metrics": {
+        "Perplexity-Change": "+6%",
+        "Latency-Reduction": "≈60%",
+        "Memory-Usage": "≈3.87GB (7B)"
+      },
+      "limitations": [
+        "Perte de précision sur les tâches arithmétiques et de raisonnement",
+        "Peut halluciner davantage sur les prompts longs",
+        "Les modèles quantifiés peuvent être instables sur les GPU anciens"
+      ],
+      "ethical": [
+        "Tout usage doit respecter la licence Llama 2 de Meta",
+        "Ne doit pas être utilisé pour des décisions critiques ou réglementées",
+        "Les variantes quantifiées doivent être évaluées avant déploiement"
+      ],
+      "license": "Licence Llama 2",
+      "links": {
+        "huggingface": "https://huggingface.co/corneille97/llama-2-7b-4bits-turbo",
+        "paper": "https://arxiv.org/abs/2307.09288"
+      }
+    },
+    {
+      "id": "llama7b-text-to-sql",
+      "name": "AeroSQL-LLaMA-7B",
+      "task": "Traduction Text-to-SQL (LoRA Fine-Tuned)",
+      "architecture": "LLaMA 7B (LoRA Low-Rank Adapters)",
+      "datasets": ["Spider", "Paires SQL domaine spécifique", "Jeux de benchmark 800M–70B"],
+      "training": {
+        "epochs": 10,
+        "batchSize": 16,
+        "learningRate": "2e-4",
+        "hardware": "1/2x NVIDIA A100 80GB",
+        "duration": "72 heures"
+      },
+      "metrics": {
+        "Exact-Match": "0.91",
+        "Execution-Accuracy": "0.88",
+        "Schema-Generalization": "0.85"
+      },
+      "limitations": [
+        "Nécessite un prompt engineering soigneux",
+        "Peut halluciner des noms de tables/colonnes",
+        "A encore des difficultés avec les contextes de schémas longs"
+      ],
+      "ethical": [
+        "Les requêtes SQL doivent être validées avant exécution",
+        "Les données opérationnelles aéronautiques doivent rester privées",
+        "Ne doit pas être utilisé pour des requêtes critiques sans relecture humaine"
+      ],
+      "license": "Restreint (Spécifique Client)",
+      "links": {}
+    },
+    {
+      "id": "mistral7b-text-to-sql",
+      "name": "AeroSQL-Mistral-7B",
+      "task": "Traduction Text-to-SQL (LoRA Fine-Tuned)",
+      "architecture": "Mistral 7B (Dense Transformer, LoRA)",
+      "datasets": ["Spider", "Airbus Helicopters SQL Logs", "Synthetic Query Expansions"],
+      "training": {
+        "epochs": 9,
+        "batchSize": 16,
+        "learningRate": "1.5e-4",
+        "hardware": "1/2x NVIDIA A100 80GB",
+        "duration": "53 heures"
+      },
+      "metrics": {
+        "Exact-Match": "0.92",
+        "Execution-Accuracy": "0.89",
+        "Reduced-Hallucinations": "0.90"
+      },
+      "limitations": [
+        "Toujours dépendant de la clarté du schéma",
+        "Performance variable sur des arbres SQL très longs",
+        "Échoue sur certains opérateurs rares spécifiques au domaine"
+      ],
+      "ethical": [
+        "Vérification humaine requise avant exécution SQL",
+        "Les logs d’entraînement doivent être anonymisés",
+        "Une haute précision n’élimine pas les risques d’hallucination"
+      ],
+      "license": "Restreint (Spécifique Client)",
+      "links": {}
+    },
+    {
+      "id": "t5-text-to-sql-large",
+      "name": "AeroSQL-T5-Large",
+      "task": "Traduction Text-to-SQL",
+      "architecture": "T5-Large (770M paramètres)",
+      "datasets": ["Spider", "Données SQL internes Airbus Helicopters", "Prompts SQL synthétiques"],
+      "training": {
+        "epochs": 10,
+        "batchSize": 8,
+        "learningRate": "1e-4",
+        "hardware": "4x NVIDIA A100 40GB",
+        "duration": "36 heures"
+      },
+      "metrics": {
+        "Exact-Match": "0.73",
+        "Execution-Accuracy": "0.72",
+        "Generalization": "0.69"
+      },
+      "limitations": [
+        "Latence d’inférence élevée",
+        "Les performances chutent sur SQL très imbriqué",
+        "Empreinte mémoire GPU importante"
+      ],
+      "ethical": [
+        "Des requêtes incorrectes peuvent entraîner des interprétations erronées de données aéronautiques",
+        "Pipeline d’approbation humaine requis",
+        "Les données d’entraînement peuvent contenir des détails opérationnels sensibles"
+      ],
+      "license": "Restreint (Spécifique Client)",
+      "links": {}
+    },
+    {
+      "id": "bert-text-to-sql",
+      "name": "AeroSQL-BERT",
+      "task": "Classification SQL & Schema Linking",
+      "architecture": "BERT-Large (340M paramètres)",
+      "datasets": ["Logs SQL domaine Airbus", "Annotations de schémas", "Paires Text-SQL synthétiques"],
+      "training": {
+        "epochs": 8,
+        "batchSize": 32,
+        "learningRate": "3e-5",
+        "hardware": "2x NVIDIA V100 32GB",
+        "duration": "24 heures"
+      },
+      "metrics": {
+        "Schema-Linking-F1": "0.65",
+        "Classification-Accuracy": "0.52",
+        "Token-Tagging-F1": "0.66"
+      },
+      "limitations": [
+        "Ne peut pas générer de SQL — uniquement classification et tagging",
+        "Difficultés avec le long contexte et raisonnement multi-tables",
+        "Nécessite un décodeur SQL externe pour un pipeline complet"
+      ],
+      "ethical": [
+        "Ne doit pas être déployé sans pipeline de vérification",
+        "Le schéma des datasets doit rester confidentiel",
+        "Les sorties nécessitent validation humaine dans les contextes aéronautiques"
+      ],
+      "license": "Restreint (Spécifique Client)",
+      "links": {}
+    }
+  ], 
+  "publications": [
+    {
+      "id": "autonomous-drone-landing",
+      "title": "Localisation et Atterrissage d’un Drone Autonome sur une Plateforme Mobile",
+      "authors": ["Youcef KADDOUR"],
+      "venue": "Université Paris-Saclay",
+      "date": "Janvier 2020 – Juin 2020",
+      "type": "paper",
+      "summary": "Développement d’un système de détection, de suivi et d’atterrissage en temps réel permettant à un drone autonome d’atterrir sur une plateforme en mouvement. Le travail a inclus la mise à jour et l’extension d’une librairie Python pour le contrôle du Parrot AR-Drone 2.0, l’implémentation d’un pipeline de détection Computer Vision utilisant des marqueurs ArUco, du filtrage de Kalman et du tracking GOTURN, ainsi que la création d’un système de planification et de correction de trajectoire en temps réel.",
+      "tags": ["Autonomous Drones", "Computer Vision", "Aruco", "Kalman Filter", "OpenCV", "Robotics"],
+      "links": {
+        "paper": "https://drive.google.com/file/d/1rcGtEDjdYT8RYRbHY_d3x8cT-NKH3dVL/view?usp=sharing",
+        "video": "https://www.youtube.com/watch?v=-UC-sy5zOKE"
+      },
+      "citations": 1,
+      "featured": true
+    },
+    {
+      "id": "visual-monitoring-deep-learning",
+      "title": "Évaluation de la Surveillance Visuelle et du Tracking Basés sur des Algorithmes Deep Learning",
+      "authors": ["Youcef KADDOUR"],
+      "venue": "Université Paris-Saclay",
+      "date": "Septembre 2020 – Février 2021",
+      "type": "paper",
+      "summary": "Étude approfondie et catégorisation des méthodes de suivi et de surveillance visuelle à l’état de l’art basées sur Deep Learning, incluant CNN, RNN, SNN, YOLO-v3 et DRLT. Le projet a inclus des évaluations de performance sur plusieurs benchmarks concernant la robustesse, les exigences computationnelles, l’utilisation mémoire et l’adaptabilité à divers scénarios. Les principales limitations de chaque méthode ont été identifiées afin d’aider à la sélection de solutions pour des applications réelles.",
+      "tags": ["Deep Learning", "Visual Tracking", "Computer Vision", "DRLT", "YOLO", "Neural Networks"],
+      "links": {
+        "paper": "https://drive.google.com/file/d/1GJrXm5UeVsAkFs2d7uzTFpAyVGleZAB1/view?usp=drive_link"
+      },
+      "citations": 1,
+      "featured": true
+    }
+  ],
+  "contact": {
+    "email": "youcef.kaddour.pro@gmail.com",
+    "location": "Cannes, France",
+    "calendly": "https://calendly.com/youcef-kaddour-pro",
+    "availability": "À l’écoute de nouvelles opportunités",
+    "socialLinks": {
+      "github": "https://github.com/kaddour-youcef",
+      "linkedin": "linkedin.com/in/youcef-kaddour-coo/"
+    }
+  }
+  
+  
+}
