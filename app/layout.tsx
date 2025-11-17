@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "AI Engineer Portfolio - Youcef KADDOUR",
   description:
     "AI/ML Engineer specializing in production-grade LLM & CV systems. View my projects, research, and experience.",
-  keywords: ["AI Engineer", "AI", "Machine Learning", "LLM", "AI Agents", "Deep Learning", "Computer Vision", "NLP", "Portfolio"],
+  keywords: ["AI Engineer", "Software engineer", "AI", "Machine Learning", "LLM", "AI Agents", "Deep Learning", "Computer Vision", "NLP", "Portfolio"],
   authors: [{ name: "Youcef KADDOUR" }],
   creator: "Youcef KADDOUR",
   publisher: "Youcef KADDOUR",
