@@ -15,12 +15,12 @@ interface PersonalData {
   location: string
   email: string
   links: {
-    github: string
-    linkedin: string
-    huggingface: string
-    kaggle: string
-    scholar: string
-    resume: string
+    github?: string
+    linkedin?: string
+    huggingface?: string
+    kaggle?: string
+    scholar?: string
+    resume?: string
   }
   stats: {
     githubFollowers: number
