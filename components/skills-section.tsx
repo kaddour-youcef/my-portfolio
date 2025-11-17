@@ -5,9 +5,12 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { useLanguage } from "@/contexts/language-context"
 
+const SKILL_LEVELS = ["novice", "intermediate", "advanced", "expert"] as const
+type SkillLevel = (typeof SKILL_LEVELS)[number]
+
 interface Skill {
   name: string
-  level: "novice" | "intermediate" | "advanced" | "expert"
+  level: string
 }
 
 interface SkillCategory {
@@ -19,18 +22,22 @@ interface SkillsData {
   [key: string]: SkillCategory
 }
 
-const levelToProgress = {
+const levelToProgress: Record<SkillLevel, number> = {
   novice: 25,
   intermediate: 50,
   advanced: 75,
   expert: 100,
 }
 
-const levelColors = {
+const levelColors: Record<SkillLevel, string> = {
   novice: "bg-yellow-500",
   intermediate: "bg-blue-500",
   advanced: "bg-green-500",
   expert: "bg-purple-500",
+}
+
+const normalizeLevel = (level: string): SkillLevel => {
+  return SKILL_LEVELS.includes(level as SkillLevel) ? (level as SkillLevel) : "novice"
 }
 
 export function SkillsSection({ data }: { data: SkillsData }) {
@@ -53,17 +60,20 @@ export function SkillsSection({ data }: { data: SkillsData }) {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {category.skills.map((skill) => (
-                  <div key={skill.name} className="space-y-2">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-medium text-foreground">{skill.name}</span>
-                      <Badge variant="secondary" className={`text-xs ${levelColors[skill.level]} text-white`}>
-                        {t(`skills.level.${skill.level}`)}
-                      </Badge>
+                {category.skills.map((skill) => {
+                  const level = normalizeLevel(skill.level)
+                  return (
+                    <div key={skill.name} className="space-y-2">
+                      <div className="flex items-center justify-between">
+                        <span className="text-sm font-medium text-foreground">{skill.name}</span>
+                        <Badge variant="secondary" className={`text-xs ${levelColors[level]} text-white`}>
+                          {t(`skills.level.${level}`)}
+                        </Badge>
+                      </div>
+                      <Progress value={levelToProgress[level]} className="h-2" />
                     </div>
-                    <Progress value={levelToProgress[skill.level]} className="h-2" />
-                  </div>
-                ))}
+                  )
+                })}
               </CardContent>
             </Card>
           ))}
