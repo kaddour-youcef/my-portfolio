@@ -2,15 +2,11 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-
-  // GitHub Pages requirements
-  basePath: "/my-portfolio",
-  assetPrefix: "/my-portfolio/",
-
   images: { unoptimized: true },
 
-  eslint: { ignoreDuringBuilds: true },
-  typescript: { ignoreBuildErrors: true },
+  // IMPORTANT: No basePath or assetPrefix when domain points to root
+  basePath: "",
+  assetPrefix: "",
 };
 
 export default nextConfig;
