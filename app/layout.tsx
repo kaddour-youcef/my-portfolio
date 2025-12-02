@@ -76,7 +76,7 @@ export default function RootLayout({
           </LanguageProvider>
         </ThemeProvider>
       </body>
-      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_G_ANALYTICS} />
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_G_ANALYTICS || ''} />
     </html>
   )
 }
