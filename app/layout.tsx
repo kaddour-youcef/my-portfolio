@@ -7,8 +7,9 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/contexts/language-context"
 import { ContentProvider } from "@/contexts/content-context"
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { CookieConsent } from "@/components/cookie-consent"
 
+const googleAnalyticsId = process.env.NEXT_PUBLIC_G_ANALYTICS
 
 
 export const metadata: Metadata = {
@@ -75,8 +76,8 @@ export default function RootLayout({
             </ContentProvider>
           </LanguageProvider>
         </ThemeProvider>
+        <CookieConsent gaId={googleAnalyticsId} />
       </body>
-      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_G_ANALYTICS || ''} />
     </html>
   )
 }
