@@ -36,7 +36,6 @@ export function CookieConsent({ gaId }: { gaId?: string }) {
   const [hasDecision, setHasDecision] = useState(false)
   const [preferences, setPreferences] =
     useState<ConsentPreferences>(defaultPreferences)
-
   useEffect(() => {
     try {
       const stored = localStorage.getItem(STORAGE_KEY)
