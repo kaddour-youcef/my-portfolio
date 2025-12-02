@@ -25,7 +25,7 @@ type ConsentPreferences = {
 
 const STORAGE_KEY = "cookie-consent:v1"
 const defaultPreferences: ConsentPreferences = {
-  analytics: false,
+  analytics: true,
   marketing: false,
   updatedAt: 0,
 }
